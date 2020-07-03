@@ -135,6 +135,9 @@
   <data name="OnlineSource_QueryFile" xml:space="preserve">
     <value>Optional. Path to the file containing query document</value>
   </data>
+  <data name="Online_BatchSize" xml:space="preserve">
+    <value>Optional. Batch size of documents while dumping.</value>
+  </data>
   <data name="Online_Collection" xml:space="preserve">
     <value>Name of the documents collection</value>
   </data>

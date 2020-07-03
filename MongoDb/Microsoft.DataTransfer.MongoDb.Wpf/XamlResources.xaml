@@ -16,6 +16,8 @@
   <system:String x:Key="CollectionNameKey">Collection</system:String>
   <system:String x:Key="CollectionNameSummaryKey">Collection:</system:String>
 
+  <system:String x:Key="BatchSizeNameKey">Batch size</system:String>
+
   <system:String x:Key="QuerySummaryKey">Query:</system:String>
   <system:String x:Key="EnterQuerySelectionKey">Enter Query</system:String>
   <system:String x:Key="QueryFileSelectionKey">Select Query File</system:String>

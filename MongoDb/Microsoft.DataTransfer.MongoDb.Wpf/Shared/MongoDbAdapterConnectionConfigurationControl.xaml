@@ -49,6 +49,8 @@
       <StackPanel Style="{StaticResource OptionElement}">
         <Label Content="{DynamicResource CollectionNameKey}" />
         <TextBox Text="{Binding Configuration.Collection, UpdateSourceTrigger=PropertyChanged, TargetNullValue={x:Static system:String.Empty}}" />
+        <Label Content="{DynamicResource BatchSizeNameKey}" />
+        <TextBox Text="{Binding Configuration.BatchSize, UpdateSourceTrigger=PropertyChanged, TargetNullValue={x:Static system:String.Empty}}" />
       </StackPanel>
     </StackPanel>
   </AdornerDecorator>

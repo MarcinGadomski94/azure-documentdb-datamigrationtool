@@ -18,5 +18,11 @@ namespace Microsoft.DataTransfer.MongoDb.Shared
         /// </summary>
         [Display(ResourceType = typeof(ConfigurationResources), Description = "Online_Collection")]
         string Collection { get; }
+
+        /// <summary>
+        /// Gets the size of the batch while querying.
+        /// </summary>
+        [Display(ResourceType = typeof(ConfigurationResources), Description = "Online_BatchSize")]
+        string BatchSize { get; }
     }
 }

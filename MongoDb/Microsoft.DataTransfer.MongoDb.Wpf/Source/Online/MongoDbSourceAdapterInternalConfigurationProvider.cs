@@ -30,6 +30,7 @@ namespace Microsoft.DataTransfer.MongoDb.Wpf.Source.Online
 
             arguments.Add(MongoDbSourceAdapterConfiguration.ConnectionStringPropertyName, configuration.ConnectionString);
             arguments.Add(MongoDbSourceAdapterConfiguration.CollectionPropertyName, configuration.Collection);
+            arguments.Add(MongoDbSourceAdapterConfiguration.BatchSizePropertyName, configuration.BatchSize);
 
             if (configuration.UseQueryFile)
             {
